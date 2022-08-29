@@ -1,0 +1,39 @@
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.menu {
+  a {
+    color: black;
+    text-transform: capitalize;
+    position: relative;
+  }
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  a {
+    padding: 16px;
+  }
+}
+
+.content {
+  padding: 16px 0;
+}
+
+.fiexedTop {
+  font-size: 14px;
+  background-color: rgb(244, 244, 244);
+  padding: 16px;
+  text-align: center;
+  span {
+    color: rgb(153, 153, 153);
+  }
+}
